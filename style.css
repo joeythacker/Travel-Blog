@@ -1,29 +1,3 @@
-
-@media (max-width: 767px) {
-    /* mobile styles here */
-}
-
-
-@media (min-width: 768px) and (max-width: 991px) {
-    /* tablet styles here */
-}
-
-
-@media (min-width: 992px) {
-    /* desktop styles here */
-}
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.box {
-    flex: 1;
-}
-
-
-
 body {
     font-family: "Helvetica Neue", sans-serif; /* Specify a fallback font if primary font is not available */
     line-height: 1.6;
