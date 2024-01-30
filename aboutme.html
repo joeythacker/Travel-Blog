@@ -2,8 +2,55 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Blog</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Common styles for all devices */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        h1, p {
+            margin: 10px;
+        }
+
+        /* Responsive styles for smaller screens (including iPhone and Samsung) */
+        @media (max-width: 767px) {
+            h1 {
+                font-size: 1.5em;
+            }
+
+            p {
+                font-size: 1em;
+            }
+        }
+
+        /* Responsive styles for screens between 768 and 991 pixels (typical tablets) */
+        @media (min-width: 768px) and (max-width: 991px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            p {
+                font-size: 1.2em;
+            }
+        }
+
+        /* Responsive styles for larger screens (typical desktops) */
+        @media (min-width: 992px) {
+            h1 {
+                font-size: 2.5em;
+            }
+
+            p {
+                font-size: 1.5em;
+            }
+        }
+    </style>
 </head>
 <body class="dark-mode">
     <header>
