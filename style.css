@@ -18,29 +18,6 @@ body.dark-mode {
     color: #ffffff;
 }
 
-/* Header Styles */
-header {
-    background-color: beige;
-    text-align: center;
-    padding: 20px;
-    background-image: url('IMG_16982.JPG');
-    background-position: center;
-    margin: 0;
-    text-emphasis-color: black;
-}
-
-/* Image Container Styles */
-.image-container {
-    display: flex;
-}
-
-.image-container img {
-    width: 30%;
-    height: 330px; /* Adjust the height as needed */
-    margin-right: 10px; /* Optional margin between images */
-}
-
-/* Navigation Styles */
 nav {
     background-color: #333;
     padding: 20px;
@@ -73,6 +50,27 @@ nav ul li:hover a {
     font-weight: bold;
 }
 
+/* Header Styles */
+header {
+    background-color: beige;
+    text-align: center;
+    padding: 20px;
+    background-image: url('IMG_16982.JPG');
+    background-position: center;
+    margin: 0;
+    text-emphasis-color: black;
+}
+
+/* Image Container Styles */
+.image-container {
+    display: flex;
+}
+
+.image-container img {
+    width: 30%;
+    height: 330px; /* Adjust the height as needed */
+    margin-right: 10px; /* Optional margin between images */
+}
 
 /* Style for the main content */
 main {
