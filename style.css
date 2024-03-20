@@ -1,4 +1,3 @@
-/* Global Styles */
 body {
     font-family: "Helvetica Neue", sans-serif; /* Specify a fallback font if primary font is not available */
     line-height: 1.6;
@@ -8,60 +7,16 @@ body {
     color: #ffffff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
-
 body {
-    background-color: #ffffff;
-}
-
+    background-color: #ffffff; 
+    color: #000000; 
+  }
+  
 body.dark-mode {
-    background-color: #1f1f1f;
-    color: #ffffff;
-}
-
-nav {
-    background-color: #333;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-    font-family: "Helvetica Neue", sans-serif;
-    transition: color 0.3s ease-in-out;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 16px;
-}
-
-nav ul li:hover a {
-    color: rgb(255, 0, 0);
-    font-weight: bold;
-}
-
-/* Header Styles */
-header {
-    background-color: beige;
-    text-align: center;
-    padding: 20px;
-    background-image: url('IMG_16982.JPG');
-    background-position: center;
-    margin: 0;
-    text-emphasis-color: black;
-}
-
-/* Image Container Styles */
+    background-color: #1f1f1f; 
+    color: #ffffff; 
+  }
+  
 .image-container {
     display: flex;
 }
@@ -70,6 +25,38 @@ header {
     width: 30%;
     height: 330px; /* Adjust the height as needed */
     margin-right: 10px; /* Optional margin between images */
+}
+
+  
+header {
+    background-color: beige;
+    text-align: center;
+    padding: 20px;
+    background-image: url('IMG_16982.JPG'); /* Added single quotes around the URL */
+    background-position: center;
+    margin: 0;
+    text-emphasis-color: black;
+
+    }
+    
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    text-align: center;
+    font-family: "Helvetica Neue";
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li:hover {
+    color: rgb(255, 0, 0);
 }
 
 /* Style for the main content */
