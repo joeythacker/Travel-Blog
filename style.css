@@ -97,7 +97,14 @@ main {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     margin: 10px 0; /* Adjust margin between headers */
   }
-  
+  h12 {
+    font-family: 'Garamond', cursive;
+    font-size: 64px;
+    color: rgb(255, 0, 0);
+    -webkit-text-stroke: 1px white; 
+   text-stroke: 1px white; 
+
+  }
   h2 {
     font-family: 'Arial', sans-serif;
     font-size: 30px;
